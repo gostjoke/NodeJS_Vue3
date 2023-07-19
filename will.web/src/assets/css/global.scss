@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+}
+
+.login-row {
+  max-width: 100%;
+}
+
+.login-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbe1e4;
+  color: #a4a6fb;
+  border-color: black;
+}
+
+.login-right {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
